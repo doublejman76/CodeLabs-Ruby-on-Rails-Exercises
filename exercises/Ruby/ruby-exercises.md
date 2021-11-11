@@ -42,3 +42,18 @@ name = "John"
 puts name.match?("Amy")
 # false
 ```
+
+**Exercise 1.5: Use escaping to output single quotes in a string**
+- Output ```'Single Quotes'``` to the console (hint: use backslashes)
+
+**Exercise 1.6: Print out user input**
+- Use ```gets.chomp```. To get the user input, then store it in a variable called user_input. Print onto the console "You typed: " follow by what the user entered. 
+
+NOTE: You can comment out this code to prevent you from always having to get user input
+
+- Define a method named multiply_by_two with one parameter. Get the user input and use the method you defined to multiply that number by 2. Print the result.
+- Define a method named divide_by_two with one parameter. Take in a user input and store and divide that value by two using divided_by_two. Print the result.
+
+If user entered 5, result should be 2.5.
+
+## Part 2
