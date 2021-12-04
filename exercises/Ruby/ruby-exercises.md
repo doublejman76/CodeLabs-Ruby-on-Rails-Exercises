@@ -57,3 +57,16 @@ NOTE: You can comment out this code to prevent you from always having to get use
 If user entered 5, result should be 2.5.
 
 ## Part 2
+
+**Exercise 1.7: if/else Conditionals**
+  1. Print out ```What is your name?```. Get user input and store data in a variable called name
+  2. Use an if statement to see if the name entered by the user is "john". If so, print out ```I found you!```.
+  3. Use an else statement to print out ```You're not who I'm looking for.```
+  4. Use the built in string method ```downcase``` to downcase all letters of the user input in case he enters ```JoHn```.
+  5. Change the print statement to ```What is your first name?``` Store user input in a variable. Add another print statement to ```What is your last name?``` Store user input in a variable. Use the if statement to heck to see if the first name is ```john``` and last name is ```doe```. Use ```&&``` to do this.
+
+**Exercise 1.7: More Conditionals | User Login**
+
+```
+USERNAME = "user123" PASSWORD = "password123" login = false
+```
