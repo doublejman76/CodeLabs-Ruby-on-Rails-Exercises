@@ -60,6 +60,8 @@ If user entered 5, result should be 2.5.
 - topics covered
   - methods
   - arrays/iterators
+
+
 **Exercise 2.1: if/else Conditionals**
   1. Print out ```What is your name?```. Get user input and store data in a variable called name
   2. Use an if statement to see if the name entered by the user is "john". If so, print out ```I found you!```.
@@ -70,7 +72,7 @@ If user entered 5, result should be 2.5.
 **Exercise 2.2: Arrays and iterators**
   1. Create an array with numbers 1 through 10
   2. Print out the first element of the array, the last element and its length using built in array methods
-  3. Use ````unshift``` to add a number to the front of the array. Use ```<<``` to push a number to the end of the array.
+  3. Use ```unshift``` to add a number to the front of the array. Use ```<<``` to push a number to the end of the array.
   4. Use an iterator to print out each element of the array.
   5. Use an the each method to multiply each element in the array by 2 and print it
   6. Use the select method to only return odd numbers
@@ -78,8 +80,18 @@ If user entered 5, result should be 2.5.
 **Exercise 2.3: More built in array methods**
 1. Print out the array of built in methods
 
+To see the methods
 Example ```puts [].methods```
+- Google them 
 
-2. Create an array with three strings that resemble names. 
-3. Use three different built in array methods that haven't been covered in this exercise.
+1. Create an array with three strings that resemble names. 
+2. Use three different built in array methods that haven't been covered in this exercise.
+
+**Exercises 2.4: Hashes**
+1. Set a variable called user to a hash with keys email and id. Store values for theys keys
+2. Print the values with keys email and id by accessing the user hash.
+3. Choose and use three built in hash methods onto this object.
+
+To see the methods
+```puts {}.methods```
 
