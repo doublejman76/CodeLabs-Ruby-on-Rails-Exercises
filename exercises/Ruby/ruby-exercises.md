@@ -121,17 +121,17 @@ Choose a movie
 3. Grown Ups
 ```
 When the user chooses a movie 
-```1```
+- ```1```
 
 ```The Godfather
 1. Rate the movie.
 2. See your rating
 3. Go back to main menu
 ```
-```1```
-```Please rate the movie from 1 - 5```
-```4```
-```Awesome!```
+- ```1```
+- ```Please rate the movie from 1 - 5```
+- ```4```
+- ```Awesome!```
 ```Here's a list of my favorite movies!
 Choose a movie
 1. The Godfather
@@ -139,3 +139,28 @@ Choose a movie
 3. Grown Ups
 ```
 
+## Part 4
+- topics covered
+  - bcrypt
+
+**4.1 login + cli**
+1. Create a CLI that allows the user to sign up and login. Use Bcypt to salt/hash the user passwords.
+   Use class Notes as a resource.
+
+- create a file called main.rb and include the following
+
+```ruby
+require 'bundler/inline'
+gemfile do
+    source 'http://rubygems.org'
+    gem 'bcrypt'
+end
+require 'bcrypt'
+```
+- Bundler has an inline gemfile definition feature that lets you define gem dependencies in a single-file Ruby script. To use this feature, require 'bundler/inline' and provide a gemfile block that has the code that you normally put in a Gemfile.
+
+2. Create your CLI in this file. 
+
+
+#### References
+- https://nithinbekal.com/posts/bundler-inline-gemfile/#:~:text=Bundler%20has%20an%20inline%20gemfile,normally%20put%20in%20a%20Gemfile%20.
