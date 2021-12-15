@@ -10,25 +10,25 @@
 
 ## Topics Covered 
 **<em>Model</em>**
-    - created a model
-    - create migration files 
-    - test operations in the console 
-    - add validations
+- created a model
+- create migration files 
+- test operations in the console 
+- add validations
 **<em>Controller</em>**
-    - created a controller 
-    - methods
-    - added routes
-    - instance variables
+- created a controller 
+- methods
+- added routes
+- instance variables
 **<em>Views</em>**
-    - created views
-    - embedded ruby tags
+- created views
+- embedded ruby tags
 **<em>Console</em>**
-    - testing ORM active record in rails consoles
-    - creating migration files
-    - scaffold commands
-    - generating models
+- testing ORM active record in rails consoles
+- creating migration files
+- scaffold commands
+- generating models
 **<em>Debugging</em>**
-    - byebug
+- byebug
 
 Notes: [link](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Class-Notes/blob/main/Class_8/BookIt_app_part_1.md)
 
