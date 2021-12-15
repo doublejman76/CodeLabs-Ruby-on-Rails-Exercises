@@ -90,7 +90,8 @@ Notes: [link](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Class-Note
 8. Run ```rails s``` to check for errors
 
 **<em>Exercise 7</em>: MVC**
-1. Manually create a migration file called manual-mvc-rails-exercise
+
+1. Generate a rails application called manual-mvc-rails-exercise
 2. Create a migration file called create_posts
    1. In the migration file, define attributes title of type string and description of type text. Run the migration command to create the schema file(running this command will also update it from the migration file)
 3. Create a model file called post.rb under the models directory
@@ -104,5 +105,9 @@ Notes: [link](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Class-Note
 5. Under the views folder, create a file called show.html.erb
    1. In show.html.erb, use embedded tags to output attributes regarding the instance variable you created in the show method.
 
+**<em>Exercise 7</em>: Resource**
+1. Generate a rails application called Resource-rails-exercise
+2. Create the previous exercise with scaffolding
 
+[Resource under section 5](https://guides.rubyonrails.org/v3.2/getting_started.html)
 
