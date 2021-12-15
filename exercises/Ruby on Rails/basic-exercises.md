@@ -8,6 +8,8 @@
 
 **You can use one project for all exercises**<br>
 
+Notes: [link](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Class-Notes/blob/main/Class_7_Intro_to_Ruby_on_Rails/ruby_on_rails_notes.md)
+
 **<em>Exercise 1</em>: Creating a basic Rails app**
 - Generate a rails application called my-first-rails-app
 - Launch a web server that bundles the rails application
