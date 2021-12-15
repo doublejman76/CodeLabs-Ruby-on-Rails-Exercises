@@ -9,25 +9,25 @@
 **You can use one project for all exercises**<br>
 
 ## Topics Covered 
-**<em>Model</em>**
+###### Model
 - created a model
 - create migration files 
 - test operations in the console 
 - add validations
-**<em>Controller</em>**
+###### Controller
 - created a controller 
 - methods
 - added routes
 - instance variables
-**<em>Views</em>**
+###### Views
 - created views
 - embedded ruby tags
-**<em>Console</em>**
+###### Console
 - testing ORM active record in rails consoles
 - creating migration files
 - scaffold commands
 - generating models
-**<em>Debugging</em>**
+###### Debugging
 - byebug
 
 Notes: [link](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Class-Notes/blob/main/Class_8/BookIt_app_part_1.md)
