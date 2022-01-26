@@ -2,7 +2,7 @@
 
 ## READ BEFORE STARTING
 
-**Use Git or GitHub Desktop to push this exercise to GitHub** <br>
+**Use Git or GitHub Desktop to commit each exercise  to GitHub** <br>
 
 **Use a cloud based service or an IDE**<br>
 

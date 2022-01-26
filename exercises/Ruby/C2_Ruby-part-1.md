@@ -2,7 +2,7 @@
 
 ## READ BEFORE STARTING
 
-**Use Git or GitHub Desktop to push this exercise to GitHub** <br>
+**Use Git or GitHub Desktop to commit each exercise to GitHub** <br>
 
 **Use a cloud based service or an IDE**<br>
 
@@ -18,13 +18,15 @@
 Here is a list of ruby terms and definitions used in class.
 
 ## Part 1 
-<em>**Layer of Abstraction**</em> - INSERT DEFINITION HERE
-<em>**Data Type**</em> - INSERT DEFINITION HERE
-<em>**Variable**</em> - INSERT DEFINITION HERE
-<em>**Constant Variable**</em> - INSERT DEFINITION HERE
-<em>**Method**</em> - INSERT DEFINITION HERE
-<em>**IRB**</em> - INSERT DEFINITION HERE
-<em>**Operators**</em> - INSERT DEFINITION HERE
+<em>**Layer of Abstraction**</em> - INSERT DEFINITION HERE <br>
+<em>**Data Type**</em> - INSERT DEFINITION HERE <br>
+<em>**Variable**</em> - INSERT DEFINITION HERE <br>
+<em>**Constant Variable**</em> - INSERT DEFINITION HERE <br>
+<em>**Method**</em> - INSERT DEFINITION HERE <br>
+<em>**IRB**</em> - INSERT DEFINITION HERE <br>
+<em>**Operators**</em> - INSERT DEFINITION HERE <br>
+<em>**Class**</em> - INSERT DEFINITION HERE <br>
+<em>**Gem**</em> - INSERT DEFINITION HERE <br>
 
 ## Part 2
 
@@ -33,7 +35,7 @@ Here is a list of ruby terms and definitions used in class.
 ## Part 4
 ```
 
-- replace each <em>INSERT DEFINITION HERE</em> with the correct definition. <br>
+- replace each <em>INSERT DEFINITION HERE</em> with the correct definition in your own words. Using external resources are recommended. However, plagiarism is not tolerated at Code Labs. <br>
 
 
 **Exercise 1.1: Print to the console**
