@@ -35,7 +35,7 @@ Here is a list of ruby terms and definitions used in class.
 ## Part 4
 ```
 
-- replace each <em>INSERT DEFINITION HERE</em> with the correct definition in your own words. Using external resources are recommended. However, plagiarism is not tolerated at Code Labs. <br>
+- replace each <em>INSERT DEFINITION HERE</em> with the correct definition in your own words. Using external resources are recommended.<br>
 
 **Exercise 1.1: Print to the console** <br>
 Create a ruby file called exercise-1.1.rb. 
@@ -45,7 +45,7 @@ Create a ruby file called exercise-1.1.rb.
 - Create a variable called my_name and set it to your name. Print it to the console.
 - Create a variable called beginning_sentence and set it to `My name is `. Create another variable called full_sentence and set it equal to the combination of both beginning_sentence and my_name. Use the `+` operator to do that. Print full_sentence. 
 
-Solution: 
+Result: 
 
 ``` 
 > "p"
@@ -59,26 +59,26 @@ Create a ruby file called exercise-1.2.rb.
 - Create a constant variable called my_name and set to your name.
 - Call the method and add the my_name variable as an argument.
 
-Solution: 
+Result: 
 ```
 > Hello, German
 ```
 
-**Exercise 1.3: Multiple Methods**
+**Exercise 1.3: Multiple Methods** <br>
 Create a ruby file called exercise-1.3.rb. Copy and paste the following:
 
 ```ruby
 
 def favorite_movie(movie)
-    # TODO: use string interpolation to print "My favorite movie is "  and include the movie parameter.
+    # TODO: use string interpolation to print "My favorite movie is " and include the movie parameter.
 end
 
 def favorite_food(food)
-    # TODO: use string interpolation to print "My favorite food is "  and include the food parameter.
+    # TODO: use string interpolation to print "My favorite food is " and include the food parameter.
 end
 
 def favorite_drink(drink)
-    # TODO: use string interpolation to print "My favorite drink is "  and include the drink parameter.
+    # TODO: use string interpolation to print "My favorite drink is " and include the drink parameter.
 end 
 
 def list_of_favorite_things(movie, food, drink)
@@ -93,20 +93,25 @@ end
 
 - Read each comment and complete each task.
 
-Solution: 
+Result: 
 ```
 > My favorite movie is The Thing
 > My favorite food is spaghetti
 > My favorite drink is water
 ```
 
-**Exercise 1.3: Define a method with multiple arguments** <br>
+**Exercise 1.4: Define a method with multiple arguments** <br>
 
 - Define a method called names_of_my_pets. Add three parameters to the method: name_1, name_2, name_3.
 - Create three variables that correspond to the parameters of your method. Set them to whatever value you like.
-- When calling the method, be should to add your variables as arguments and you should get something along the lines of `I have 3 pets! Their names are Apollo, Athena and Loki!` in the console.
+- When calling the method, be should to pass in these variables as arguments. Here is the expect result:
 
-**Exercise 1.4: Use built in string methods** <br>
+Result: 
+```
+> I have 3 pets! Their names are Apollo, Athena and Loki!
+```
+
+**Exercise 1.5: Use built in string methods** <br>
 
 - Create a variable named sentence and set it to `Hello John Doe!`. Use the build in sub method to replace `Hello` with `Hi`. Print out the result. You should get `Hi John Doe!` in the console.
 - Create a variable called solution and set it to `Hi John Doe!`. Use the built in match? method to check your output from the previous problem (see example of match?). Print the result and you should get `true` in the console.
@@ -119,11 +124,11 @@ puts name.match?("Amy")
 # false
 ```
 
-**Exercise 1.5: Use escaping to output single quotes in a string** <br>
+**Exercise 1.6: Use escaping to output single quotes in a string** <br>
 
 - Output `'Single Quotes'` to the console (hint: use backslashes)
 
-**Exercise 1.6: Print out user input** <br>
+**Exercise 1.7: Print out user input** <br>
 
 - Use `gets.chomp`. To get the user input, then store it in a variable called user_input. Print onto the console "You typed: " follow by what the user entered.
 
