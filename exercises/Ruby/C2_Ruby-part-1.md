@@ -34,6 +34,8 @@ Here is a list of ruby terms and definitions used in class.
 ```
 
 - replace each <em>INSERT DEFINITION HERE</em> with the correct definition. <br>
+
+
 **Exercise 1.1: Print to the console**
 
 - Use the keyword p to print out the string `p` to the console
