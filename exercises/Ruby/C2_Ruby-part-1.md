@@ -14,7 +14,7 @@
 
 ``` 
 # Ruby Exercises and Terminology 
-
+[Link to exercises](https://github.com/cruzgerman216/CodeLabs-Ruby-on-Rails-Exercises) <br>
 Here is a list of ruby terms and definitions used in class.
 
 ## Part 1 
@@ -101,6 +101,7 @@ Result:
 ```
 
 **Exercise 1.4: Define a method with multiple arguments** <br>
+Create a ruby file called exercise-1.4.rb. 
 
 - Define a method called names_of_my_pets. Add three parameters to the method: name_1, name_2, name_3.
 - Create three variables that correspond to the parameters of your method. Set them to whatever value you like.
@@ -112,29 +113,38 @@ Result:
 ```
 
 **Exercise 1.5: Use built in string methods** <br>
+Create a ruby file called exercise-1.5.rb. 
 
-- Create a variable named sentence and set it to `Hello John Doe!`. Use the build in sub method to replace `Hello` with `Hi`. Print out the result. You should get `Hi John Doe!` in the console.
-- Create a variable called solution and set it to `Hi John Doe!`. Use the built in match? method to check your output from the previous problem (see example of match?). Print the result and you should get `true` in the console.
+- Create a variable called sentence and set it to `Hello John Doe!`. Use the built-in string method `sub` to replace `Hello` with `Hi`. If you don't know how to use `sub`, I suggest Googling it. Print out the result. 
+- Create a variable called solution and set it to `Hi John Doe!`. Use the built-in string method `match?`to check your output from the previous problem. Print the result and you should get `true` in the console.
 
-Example:
-
-```ruby
-name = "John"
-puts name.match?("Amy")
-# false
+Result:
+``` 
+> Hi John Doe!
+> true
 ```
 
 **Exercise 1.6: Use escaping to output single quotes in a string** <br>
+Create a ruby file called exercise-1.6.rb. 
 
-- Output `'Single Quotes'` to the console (hint: use backslashes)
+- Output `'Single Quotes' is actually my favorite movie. It's great.` to the console (hint: backslashes)
 
 **Exercise 1.7: Print out user input** <br>
+Create a ruby file called exercise-1.7.rb. 
 
-- Use `gets.chomp`. To get the user input, then store it in a variable called user_input. Print onto the console "You typed: " follow by what the user entered.
-
-NOTE: You can comment out this code to prevent you from always having to get user input
-
+- Use `gets.chomp` to get the user input, then store it in a variable called user_input. Print into the console "You typed: " follow by what the user entered.
 - Define a method named multiply_by_two with one parameter. Get the user input and use the method you defined to multiply that number by 2. Print the result.
 - Define a method named divide_by_two with one parameter. Take in a user input and store and divide that value by two using divided_by_two. Print the result.
 
-If user entered 5, result should be 2.5.
+Result:
+```
+> Please enter a sentence: 
+> I enjoy coding!
+> You have typed 'I enjoy coding!'
+> What number do you want to multiply by two?
+> 5
+> 5 multipled by 2 is 10
+> What number do you want to divide by two?
+> 10
+> 10 divided by 2 is 5
+```
