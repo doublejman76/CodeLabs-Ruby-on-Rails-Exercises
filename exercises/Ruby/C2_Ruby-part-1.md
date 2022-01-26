@@ -39,18 +39,25 @@ Here is a list of ruby terms and definitions used in class.
 
 
 **Exercise 1.1: Print to the console**
+In the part-1-exercises folder, create a file called exercise-1.1. 
+- Use the method p to print out the string `p` to the console
+- Use the method puts to print out the string `puts` to the console
+- Use the method print to print out the string `print` to the console
+- Create a variable called my_name and set it to your name. Print it to the console.
+- Create a variable called beginning_sentence and set it to `My name is `. Create another variable called full_sentence and set it equal to the combination of both beginning_sentence and my_name. Use the `+` operator to do that. Print full_sentence. 
 
-- Use the keyword p to print out the string `p` to the console
-- Use the keyword puts to print out the string `puts` to the console
-- Use the key word print to print out the string `print` to the console
-- Create a local variable called my_name and set it to your name. Print it to the console.
-- Create a variable called beginning_sentence and set it to `"My name is "`. Create another variable called full_sentence and set it equal to the combination of both beginning_sentence and my_name. Use the + operator to do that. Print full_sentence and you should get `My name is German` in the console.
+The solution: 
 
+``` 
+> "p"
+> puts
+> printMy name is German
+```
 **Exercise 1.2: Define a method**
 
 - Define a method called say_hello_to. When you call the method, you should be able to see `Hello, John Doe!` in the console.
 - Add a parameter called name to the method you just created. Use the parameter to print out `Hello, ` follow by the parameter name. Call the method and add the my_name variable as an argument.
-  - Result: `Hello, German!`
+  - Result: `Hello, example!`
 
 **Exercise 1.3: Define a method with multiple arguments**
 
