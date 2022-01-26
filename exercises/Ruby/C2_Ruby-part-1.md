@@ -9,7 +9,7 @@
 **You can use one project for all exercises**<br>
 
 **Exercise 0: Setup** 
-- Create a folder called CodeLabs-ruby-exercises. Publish this to GitHub and name the repo `Code-Labs-Ruby-Exercises`. Create four separate folders: part-1-exercises, part-2-exercises, part-3-exercises, part-4-exercises. 
+- Create a folder called Code-Labs-Ruby-Exercises. Publish this to GitHub and name the repo `Code-Labs-Ruby-Exercises`. Create four separate folders: part-1-exercises, part-2-exercises, part-3-exercises, part-4-exercises.
 - Create a **README.md** file at the root directory. In your README.md file. Copy and paste the following: 
 
 ``` 
@@ -33,7 +33,7 @@ Here is a list of ruby terms and definitions used in class.
 ## Part 4
 ```
 
-- replace each <em>INSERT DEFINITION HERE</em> with the correct definition.
+- replace each <em>INSERT DEFINITION HERE</em> with the correct definition. <br>
 **Exercise 1.1: Print to the console**
 
 - Use the keyword p to print out the string `p` to the console
