@@ -149,9 +149,16 @@ Result:
 > 10 divided by 2 is 5
 ```
 
-**Exercise 1.8: FizzBuzz** <br>
-Write a program that prints the numbers from 1 to 100.
-But for multiples of three print “Fizz” instead of the
-number and for the multiples of five print “Buzz”. For
-numbers which are multiples of both three and five
-print “FizzBuzz”.
+**Exercise 1.8: Built in String methods** <br>
+Create a ruby file called exercise-1.8.rb. 
+Go through the [ruby documentation](https://ruby-doc.org/core-3.1.0/String.html#method-i-next). Use 5 built in string methods. Here's an example of using the string method `length`.
+
+```ruby
+name = "John"
+puts "I have #{name.length} characters in my name."
+```
+
+**Exercise 1.9: Operators**<br>
+Create a ruby file called exercise-1.9.rb
+
+Create four methods: add, subtract, divide and multiply. Each method should have two parameters. Each method should do a basic level of an expression involving a certain operator and the given two parameters. For example, in the `add` method, you will use the `+` to evaluate the addition of both parameters. 
