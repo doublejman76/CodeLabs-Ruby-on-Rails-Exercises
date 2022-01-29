@@ -21,6 +21,8 @@ Here is a list of ruby terms and definitions used in class.
 <em>**Layer of Abstraction**</em> - INSERT DEFINITION HERE <br>
 <em>**Data Type**</em> - INSERT DEFINITION HERE <br>
 <em>**Variable**</em> - INSERT DEFINITION HERE <br>
+<em>**What's the difference between a local variable, constant variable, and a global variable?**</em> - INSERT DEFINITION HERE <br>
+<em>**What does scope mean?**</em> - INSERT DEFINITION HERE <br>
 <em>**Constant Variable**</em> - INSERT DEFINITION HERE <br>
 <em>**Method**</em> - INSERT DEFINITION HERE <br>
 <em>**IRB**</em> - INSERT DEFINITION HERE <br>
