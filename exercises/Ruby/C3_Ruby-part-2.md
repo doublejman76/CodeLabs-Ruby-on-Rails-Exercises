@@ -27,6 +27,7 @@ Copy and paste the contents of Part 2 in your README.md file.
 - replace each <em>INSERT DEFINITION HERE</em> with the correct definition in your own words. Using external resources are recommended.<br>
 
 **Exercise 2.1: if/else Conditionals** <br>
+Create a ruby file called exercise-2.1.rb. 
 
 1. Print out `What is your name?`. Get user input and store data in a variable called name.
 2. Use an `if` statement to see if the name entered by the user is "john". If so, print out `I found you!`.
@@ -36,6 +37,8 @@ Copy and paste the contents of Part 2 in your README.md file.
 6. Add an elsif statement to check if the first name and last name equate to `Amy Jeans`. If so, print `Amy! Help me look for John Doe.`
 
 **Exercise 2.2: Arrays and iterators** <br>
+Create a ruby file called exercise-2.2.rb. 
+
 1. Create an array with numbers 1 through 10
 2. Print out the first element of the array, the last element and its length.
 3. Use `unshift` to add a number to the front of the array. Use `<<` to push a number to the end of the array.
@@ -44,6 +47,7 @@ Copy and paste the contents of Part 2 in your README.md file.
 6. In another code block, use the `select` method to only return odd numbers
 
 **Exercise 2.3: More built in array methods** <br>
+Create a ruby file called exercise-2.3.rb. 
 
 1. Print out the array built in methods
 
@@ -54,6 +58,7 @@ Example `puts [].methods`
 2. Use three different built in array methods that haven't been covered in this exercise. Googling is recommended.
 
 **Exercises 2.4: Hashes** <br>
+Create a ruby file called exercise-2.4.rb. 
 
 1. Set a variable called user to a hash with keys email and id. Store values for these keys.
 2. Print the values with keys email and id by accessing the user hash.
@@ -64,13 +69,17 @@ To see the methods
 
 
 **Exercise 2.5: FizzBuzz** <br> 
+Create a ruby file called exercise-2.5.rb. 
+
 Write a program that prints the numbers from 1 to 100.
 But for multiples of three print “Fizz” instead of the
 number and for the multiples of five print “Buzz”. For
 numbers which are multiples of both three and five
 print “FizzBuzz”.
 
-**Exercise 2.6: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br> 
+**Exercise 2.6: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
+Create a ruby file called exercise-2.6.rb. 
+
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 ```
