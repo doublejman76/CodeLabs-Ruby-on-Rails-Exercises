@@ -127,7 +127,7 @@ expected output:
 
 ```
 
-### Test Your Might 
+## Test Your Might 
 
 **Exercise 2.7: FizzBuzz** <br> 
 Create a Ruby file called exercise-2.5.rb. 
