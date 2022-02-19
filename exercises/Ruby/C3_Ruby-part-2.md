@@ -11,43 +11,48 @@
 **Exercise 2.0: Terminology** 
 Copy and paste the contents of Part 2 in your README.md file.
 ``` 
+.
+.
+.
 
 ## Part 2
 <em>**Conditional**</em> - INSERT DEFINITION HERE <br>
-<em>**The difference between else and elsif**</em> - INSERT DEFINITION HERE <br>
-<em>**Logical Operators**</em> - INSERT DEFINITION HERE <br>
+<em>**The difference between else and elsif**</em> - INSERT ANSWER HERE <br>
+<em>**What are Case/When statements? - INSERT DEfINNITION HERE <br>
+<em>**What is a data structure? - INSERT DEFINTION HERE <rb>
 <em>**Arrays**</em> - INSERT DEFINITION HERE <br>
 <em>**Loops**</em> - INSERT DEFINITION HERE <br>
+<em>**Recursion**</em> - INSERT DEFINITION HERE <br>
 
 ## Part 3
 
 ## Part 4
 ```
 
-- replace each <em>INSERT DEFINITION HERE</em> with the correct definition in your own words. Using external resources are recommended.<br>
+- replace each <em>INSERT DEFINITION/ANSWER HERE</em> with the correct definition/answer in your own words. Using external resources are recommended.<br>
 
 **Exercise 2.1: if/else Conditionals** <br>
-Create a ruby file called exercise-2.1.rb. 
+Create a Ruby file called exercise-2.1.rb. 
 
 1. Print out `What is your name?`. Get user input and store data in a variable called name.
 2. Use an `if` statement to see if the name entered by the user is "john". If so, print out `I found you!`.
 3. Use an `else` statement to print out `You're not who I'm looking for ` follow by the name the user entered.
 4. Use the built in string method `downcase` to downcase all letters of the user input in case the user enters `JoHn`.
 5. Change the print statement to `What is your first name?` Store user input in a variable. Add another print statement to `What is your last name?` Store user input in a variable. Use the `if` statement to check to see if the first name is `john` and last name is `doe`. 
-6. Add an elsif statement to check if the first name and last name equate to `Amy Jeans`. If so, print `Amy! Help me look for John Doe.`
+6. Add an `elsif` statement to check if the first name and last name equate to `Amy Jeans`. If so, print `Amy! Help me look for John Doe.`
 
 **Exercise 2.2: Arrays and iterators** <br>
-Create a ruby file called exercise-2.2.rb. 
+Create a Ruby file called exercise-2.2.rb. 
 
 1. Create an array with numbers 1 through 10
 2. Print out the first element of the array, the last element and its length.
 3. Use `unshift` to add a number to the front of the array. Use `<<` to push a number to the end of the array.
 4. Use an iterator to print out each element of the array.
 5. While iterating, multiply each number by 2.
-6. In another code block, use the `select` method to only return odd numbers
+6. In another code block, use the `select` method to only print odd numbers
 
 **Exercise 2.3: More built in array methods** <br>
-Create a ruby file called exercise-2.3.rb. 
+Create a Ruby file called exercise-2.3.rb. 
 
 1. Print out the array built in methods
 
@@ -58,18 +63,74 @@ Example `puts [].methods`
 2. Use three different built in array methods that haven't been covered in this exercise. Googling is recommended.
 
 **Exercises 2.4: Hashes** <br>
-Create a ruby file called exercise-2.4.rb. 
+Create a Ruby file called exercise-2.4.rb. 
 
 1. Set a variable called user to a hash with keys email and id. Store values for these keys.
 2. Print the values with keys email and id by accessing the user hash.
-3. Choose and use three built in hash methods onto this object.
+3. Choose and use three built in hash methods onto this object. 
 
 To see the methods
 `puts {}.methods`
 
+Googling is recommended.
 
-**Exercise 2.5: FizzBuzz** <br> 
-Create a ruby file called exercise-2.5.rb. 
+**Exercise 2.5: Printing user data**<br>
+
+Given the array of hashes:
+
+```ruby 
+users = [
+    {
+        name: "John Doe",
+        age: 43
+    },
+    {
+        name: "Amy Singer",
+        age: 53
+    },
+    {
+        name: "Jimmy Lendricks",
+        nage: 23
+    }
+]
+```
+
+Use a `while` loop to print the values of each hash such as "My name is ... and I am ...". If the first name starts with "Jimmy", print out "My name and age is confidential."
+
+expected output: 
+```
+> My name is John Doe and I am 43.
+> My name is Amy Singer and I am 54.
+> My name and age is confidential.
+```
+
+
+**Exercises 2.6: Nested Loops** <br>
+Create a Ruby file called exercise-2.5.rb.
+
+Given the value: <br>
+```
+[[1,2,3],[[[4,5,6]]]]
+```
+
+Print each number in order. 
+
+expected output: 
+
+```
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+
+```
+
+### Test Your Might 
+
+**Exercise 2.7: FizzBuzz** <br> 
+Create a Ruby file called exercise-2.5.rb. 
 
 Write a program that prints the numbers from 1 to 100.
 But for multiples of three print “Fizz” instead of the
@@ -77,8 +138,8 @@ number and for the multiples of five print “Buzz”. For
 numbers which are multiples of both three and five
 print “FizzBuzz”.
 
-**Exercise 2.6: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
-Create a ruby file called exercise-2.6.rb. 
+**Exercise 2.8: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
+Create a Ruby file called exercise-2.6.rb. 
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
@@ -101,7 +162,6 @@ X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given a roman numeral, convert it to an integer.
 
- 
 
 Example 1:
 
@@ -125,3 +185,7 @@ Input: s = "MCMXCIV"
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 ```
+
+---
+
+:wave: Saw a mispelled word? Want to improve the class exercises? Create a **pull request** and **contribute**! 
