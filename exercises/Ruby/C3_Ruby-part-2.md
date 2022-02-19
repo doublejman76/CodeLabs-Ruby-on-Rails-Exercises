@@ -127,6 +127,8 @@ expected output:
 
 ```
 
+---
+
 ## Test Your Might 
 
 **Exercise 2.7: FizzBuzz** <br> 
