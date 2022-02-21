@@ -18,8 +18,8 @@ Copy and paste the contents of Part 2 in your README.md file.
 ## Part 2
 <em>**Conditional**</em> - INSERT DEFINITION HERE <br>
 <em>**The difference between if, elseif and else.**</em> - INSERT ANSWER HERE <br>
-<em>**What are Case/When statements? - INSERT DEfINNITION HERE <br>
-<em>**What is a data structure? - INSERT DEFINTION HERE <rb>
+<em>**What are Case/When statements? </em> - INSERT DEfINNITION HERE <br>
+<em>**What is a data structure? </em> - INSERT DEFINTION HERE <rb>
 <em>**Arrays**</em> - INSERT DEFINITION HERE <br>
 <em>**Loops**</em> - INSERT DEFINITION HERE <br>
 <em>**What is meant by 'built-in' methods?**</em> - INSERT DEFINITION HERE <br>

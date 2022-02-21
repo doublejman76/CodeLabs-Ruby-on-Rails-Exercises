@@ -27,5 +27,5 @@ require 'bcrypt'
 ```
 - Bundler has an inline gemfile definition feature that lets you define gem dependencies in a single-file Ruby script. To use this feature, require 'bundler/inline' and provide a gemfile block that has the code that you normally put in a Gemfile.
 
-2. Create your CLI in this file. 
+
 
