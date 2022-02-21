@@ -145,8 +145,31 @@ number and for the multiples of five print “Buzz”. For
 numbers which are multiples of both three and five
 print “FizzBuzz”.
 
-**Exercise 2.8: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
+**Exercise 2.7: Valid Paranthesis ([leetcode](https://leetcode.com/problems/valid-parentheses/))** <br>
 Create a Ruby file called exercise-2.8.rb. 
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+
+Example 1:
+
+Input: s = "()"
+Output: true
+Example 2:
+
+Input: s = "()[]{}"
+Output: true
+Example 3:
+
+Input: s = "(]"
+Output: false
+
+**Exercise 2.8: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
+Create a Ruby file called exercise-2.9.rb. 
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
