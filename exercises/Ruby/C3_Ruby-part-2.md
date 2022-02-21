@@ -156,18 +156,20 @@ An input string is valid if:
 Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
 
-Example 1:
+Example 1: <br>
 
-Input: s = "()"
-Output: true
-Example 2:
+Input: s = "()" <br>
+Output: true <br>
 
-Input: s = "()[]{}"
-Output: true
-Example 3:
+Example 2: <br>
 
-Input: s = "(]"
-Output: false
+Input: s = "()[]{}"  <br>
+Output: true <br>
+
+Example 3: <br>
+
+Input: s = "(]" <br>
+Output: false <br>
 
 **Exercise 2.9: Roman to Integer ([leetcode](https://leetcode.com/problems/roman-to-integer/))** <br>
 Create a Ruby file called exercise-2.9.rb. 
