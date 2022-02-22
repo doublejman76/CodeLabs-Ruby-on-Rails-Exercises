@@ -94,7 +94,7 @@ users = [
     },
     {
         name: "Jimmy Lendricks",
-        nage: 23
+        age: 23
     }
 ]
 ```
